@@ -6,7 +6,7 @@ import (
 	"time"
 	"net/url"
 	"net/http/httputil"
-"net/http"
+	"net/http"
 )
 
 type HeaderPokingTransport struct {
