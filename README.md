@@ -2,7 +2,7 @@
 
 
 Sticker is an [Armor](https://github.com/jondot/armor) based reverse-proxy, that
-will use a `backend` and an `add_headers` and `remove_headeres` configuration,
+will use a `backend` and an `add_headers` and `remove_headers` configuration,
 in order to stick or remove headers onto a web host.
 
 This is needed when you don't have a control over a service, but need to
