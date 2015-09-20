@@ -1,0 +1,19 @@
+
+middleware:
+  - request_identification
+
+log:
+  console:
+    level: info
+    format: text
+metrics:
+  prefix: dev
+  inmem:
+    interval_secs: 10
+    retain_mins: 1
+  statsd:
+    server: localhost:514
+
+amqp: amqp://guest:guest@localhost:5672/
+
+
