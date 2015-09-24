@@ -8,6 +8,16 @@ in order to stick or remove headers onto a web host.
 This is needed when you don't have a control over a service, but need to
 stick a few headers on to it.
 
+### Getting Started
+
+Take a look at the `Makefile` for your options. Meanwhile, every [Armor](https://github.com/jondot/armor) 
+service includes a Heroku deploy out of the box:
+
+```
+$ cd $GOPATH/src
+$ git clone https://github.com/jondot/sticker.git
+$ cd sticker && make && make heroku
+```
 
 ### Examples
 
